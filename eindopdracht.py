@@ -16,18 +16,37 @@ print("\n")
 
 firstLoop = True
 while firstLoop == True:
-    print("")
-    print(" \n")
+    print("""Het is een lange, moeizame dag geweest, je hebt een glas melk opgewarmd en gaat in bed
+    nog een beetje liggen lezen. De zon is al onder en de maan is verscholen achter donkere
+    wolken, waardoor het enige licht in je slaapkamer afkomstig is van de kandelaar naast je
+    hoofdeinde. Na een tijdje leg je het boek naast je neer, blaas je de kaars uit en sluit je je
+    ogen, je vaag bewust zijnde van de regen die buiten op je raam klettert. Langzaam zak je
+    weg en val je in een diepe slaap...\n""")
+    print("""Plots schrik je op van een heftige donderstoot. Je weet niet hoe laat het is, maar je ziet nog
+    steeds geen steek, de regen is nog niet opgehouden - integendeel, het is alleen maar harder
+    gaan regenen - en het is zelfs begonnen te onweren. Wanneer een tweede bliksemschicht je
+    raam oplicht zie je tot je afschuw het groene hoofd van een goblin naar binnen turen.
+    Geschokt val je uit je bed en grijp je vergeefs naar het zwaard dat op de gang en dus niet
+    naast je bed ligt. Intussen veegt de goblin de regendruppels van het natte raam en besef je
+    dat hij je heeft gezien. Je besluit om...""")
 
-    print("A. ")
-    print("B. ")
+    print("A. te blijven liggen.")
+    print("B. ...naar buiten te gaan.")
 
     answer = input("Type hier: ")
     
     if answer == "A" or answer == "a":
-        print("")
+        print("""Je kruipt snel weer je bed in, trekt je kussen over je hoofd heen en probeert de
+        gebeurtenissen van zo-even te vergeten. Het zal maar je verbeelding zijn geweest, vast te
+        wijten aan het overslaan van het middageten de vorige dag. Verdere bliksemschichten
+        blijven uit, en je begint al enigszins te ontspannen, wanneer er twee korte kloppen bij je
+        voordeur weerklinken. De kloppen blijven maar doorgaan, en je beseft dat je er toch iets aan
+        zult moeten doen. Je...""")
     elif answer == "B" or answer ==  "b":
-        print("")
+        print("""De kandelaar floept op magische wijze weer aan en plots is de kamer weer prettig verlicht.
+        Je trekt snel een leren wambuis over je nachthemd heen en doet een stevige broek aan.
+        Vervolgens grijp je de kandelaar en loop je met stevige passen richting de voordeur.
+        Onderweg raap je nog je zwaard op en klem je dit stevig in je rechterhand vast.""")
         firstLoop = False
 
 tweede = True
@@ -156,6 +175,28 @@ while zevende == True:
         print("")
     elif answer7 == "C" or answer7 == "c":
         print("")
+        zevende = False
+
+
+acht = True
+while acht == True:
+    print("")
+    print("")
+
+
+    print("A. ")
+    print("B. ")
+
+
+    answer8 = input()
+    
+    if answer8 == "A" or answer8 == "a":
+        print("")
+    elif answer8 == "B" or answer8 == "b":
+        print("")
+        acht = False
+
+
 
 
 

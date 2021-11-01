@@ -12,6 +12,7 @@ x = input()
 print("Hallo " +  x , " aangenaam")
 
 print("ik ben een Nieuwkomer op het Mediacollege Amsterdam \nDoor aantal vragen over mij te beantwoorden leer je mij beter kennen. \n\n")
+
 eerste = True
 while eerste == True:
         print("Kan je raden wat mijn afkomst is? \n")
@@ -155,6 +156,7 @@ while zevende == True:
         print(waaw + " is een mooi stad " +  x + " prachtig man")
         zevende = False
         quit()
+
 
 
         
